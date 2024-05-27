@@ -28,7 +28,7 @@ const DataTable = () => {
                 data.map((data) => {
                     if(data.rank <= 3){
                         return (
-                        <div key={data.rank} className='relative w-[22rem] h-[13rem] border-2 border-gray-400 rounded-3xl mx-4'>
+                        <div key={data.rank} className='relative w-[22rem] h-[13rem] bg-white border-2 border-gray-400 rounded-3xl mx-4'>
                         <div className='absolute right-5 top-[-35px]'>
                             <img src={trophy} alt="" className='w-24' />
                         </div>
